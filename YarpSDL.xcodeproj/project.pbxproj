@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53395321196CD2B800295BE2 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53395320196CD2B800295BE2 /* libstdc++.dylib */; };
+		53395323196CD3C300295BE2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 53395322196CD3C300295BE2 /* main.cpp */; };
+		5393450C196CCE4B0062B692 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5393450B196CCE4B0062B692 /* SDL2.framework */; };
+		5393450E196CCEE70062B692 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5393450D196CCEE70062B692 /* Cocoa.framework */; };
+		53B56E22196CD0A100660E72 /* libYARP_init.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B56E20196CD0A100660E72 /* libYARP_init.a */; };
+		53B56E23196CD0A100660E72 /* libYARP_OS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B56E21196CD0A100660E72 /* libYARP_OS.a */; };
+		53B56E25196CD0D800660E72 /* libACE.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B56E24196CD0D800660E72 /* libACE.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		539344FB196CCC4B0062B692 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		53395320196CD2B800295BE2 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		53395322196CD3C300295BE2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		539344FD196CCC4B0062B692 /* YarpSDL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YarpSDL; sourceTree = BUILT_PRODUCTS_DIR; };
+		5393450B196CCE4B0062B692 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		5393450D196CCEE70062B692 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		53B56E20196CD0A100660E72 /* libYARP_init.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYARP_init.a; path = ../../../yarp/lib/libYARP_init.a; sourceTree = "<group>"; };
+		53B56E21196CD0A100660E72 /* libYARP_OS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYARP_OS.a; path = ../../../yarp/lib/libYARP_OS.a; sourceTree = "<group>"; };
+		53B56E24196CD0D800660E72 /* libACE.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libACE.dylib; path = ../../ACE_wrappers/ace/libACE.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		539344FA196CCC4B0062B692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53395321196CD2B800295BE2 /* libstdc++.dylib in Frameworks */,
+				53B56E25196CD0D800660E72 /* libACE.dylib in Frameworks */,
+				53B56E22196CD0A100660E72 /* libYARP_init.a in Frameworks */,
+				53B56E23196CD0A100660E72 /* libYARP_OS.a in Frameworks */,
+				5393450E196CCEE70062B692 /* Cocoa.framework in Frameworks */,
+				5393450C196CCE4B0062B692 /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		539344F4196CCC4A0062B692 = {
+			isa = PBXGroup;
+			children = (
+				53395320196CD2B800295BE2 /* libstdc++.dylib */,
+				53B56E24196CD0D800660E72 /* libACE.dylib */,
+				53B56E20196CD0A100660E72 /* libYARP_init.a */,
+				53B56E21196CD0A100660E72 /* libYARP_OS.a */,
+				5393450D196CCEE70062B692 /* Cocoa.framework */,
+				5393450B196CCE4B0062B692 /* SDL2.framework */,
+				539344FF196CCC4B0062B692 /* YarpSDL */,
+				539344FE196CCC4B0062B692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		539344FE196CCC4B0062B692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				539344FD196CCC4B0062B692 /* YarpSDL */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		539344FF196CCC4B0062B692 /* YarpSDL */ = {
+			isa = PBXGroup;
+			children = (
+				53395322196CD3C300295BE2 /* main.cpp */,
+			);
+			path = YarpSDL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		539344FC196CCC4B0062B692 /* YarpSDL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53934506196CCC4B0062B692 /* Build configuration list for PBXNativeTarget "YarpSDL" */;
+			buildPhases = (
+				539344F9196CCC4B0062B692 /* Sources */,
+				539344FA196CCC4B0062B692 /* Frameworks */,
+				539344FB196CCC4B0062B692 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YarpSDL;
+			productName = YarpSDL;
+			productReference = 539344FD196CCC4B0062B692 /* YarpSDL */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		539344F5196CCC4A0062B692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = johnty;
+			};
+			buildConfigurationList = 539344F8196CCC4A0062B692 /* Build configuration list for PBXProject "YarpSDL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 539344F4196CCC4A0062B692;
+			productRefGroup = 539344FE196CCC4B0062B692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				539344FC196CCC4B0062B692 /* YarpSDL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		539344F9196CCC4B0062B692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53395323196CD3C300295BE2 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53934504196CCC4B0062B692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		53934505196CCC4B0062B692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		53934507196CCC4B0062B692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Library/Frameworks/SDL2.framework/Headers,
+					/Users/johnty/yarp/src/libYARP_OS/include,
+					/Users/johnty/yarp/generated_include,
+					/Users/johnty/Documents/ACE_wrappers,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/johnty/yarp/lib,
+					/Users/johnty/Documents/ACE_wrappers/ace,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53934508196CCC4B0062B692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Library/Frameworks/SDL2.framework/Headers,
+					/Users/johnty/yarp/src/libYARP_OS/include,
+					/Users/johnty/yarp/generated_include,
+					/Users/johnty/Documents/ACE_wrappers,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/johnty/yarp/lib,
+					/Users/johnty/Documents/ACE_wrappers/ace,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		539344F8196CCC4A0062B692 /* Build configuration list for PBXProject "YarpSDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53934504196CCC4B0062B692 /* Debug */,
+				53934505196CCC4B0062B692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53934506196CCC4B0062B692 /* Build configuration list for PBXNativeTarget "YarpSDL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53934507196CCC4B0062B692 /* Debug */,
+				53934508196CCC4B0062B692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 539344F5196CCC4A0062B692 /* Project object */;
+}
